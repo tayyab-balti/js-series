@@ -12,15 +12,23 @@ let state;
 name="Balti"
 password="Hey"
 city="Skardu"
-console.table([name, password, city, state])
+// console.table([name, password, city, state])
 
 occupation = null;
-console.log(typeof(occupation));
+// console.log(typeof(occupation));
 
 employe = String(occupation)
-console.log(typeof(employe));  // converts null into string
+// console.log(typeof(employe));  // converts null into string
 
 score = "321abc"
 updatedScore = Number(score)
-console.log(typeof(updatedScore));  // it gives a number type
-console.log(updatedScore);  // but actually it converts into not a number data type
+// console.log(typeof(updatedScore));  // it gives a number type
+// console.log(updatedScore);  // but actually it converts into not a number data type
+
+// console.log("2" == 2);
+// console.log("2" === 2);
+
+const id1 = Symbol('abc');
+const id2 = Symbol('abc');
+console.log(typeof(id2));
+console.log(id1 === id2);
