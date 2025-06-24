@@ -32,3 +32,10 @@ const id1 = Symbol('abc');
 const id2 = Symbol('abc');
 console.log(typeof(id2));
 console.log(id1 === id2);
+
+const stuDetails = function(){
+    stuName = "Tayyab";
+    stuId = 109;
+    let isUnique = true;
+}
+console.log(typeof(stuDetails));  // actually data type is an object function
